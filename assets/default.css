@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+blockquote {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: blue;
+    outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(45, 45, 246);
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}

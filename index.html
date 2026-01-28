@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Basics Test</title>
+    <link rel="stylesheet" href="assets/default.css">
+</head>
+<body>
+    <header>
+        <h1>User Registration Page | Job Portal</h1>
+        <nav>
+            <a href="#section1">Text</a>
+            <a href="#section2">Lists</a>
+            <a href="#section3">Forms</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1" class="content-section">
+            <h2>Ha vaiii Job Cahiye?</h2>
+            <p>This is a <strong>paragraphhhh</strong> with something <em>new</em> yeyyyyy.</p>
+            <p class="highlight">Latest News !!!  CU ke baccho ki nhi lgi job, campus me atank ka mahool.</p>
+            <blockquote>lorem epsum abra kadabra.</blockquote>
+        </section>
+
+        <section id="section2" class="content-section">
+            <h2>Lists</h2>
+            <h3>Job Requirements</h3>
+            <ul>
+                <li>₹1Cr+ acc balance</li>
+                <li>Any College other than CU</li>
+                <li>Single hona chaiye</li>
+            </ul>
+            
+            <h3>Ordered List</h3>
+            <ol>
+                <li>First Item</li>
+                <li>Second Item</li>
+                <li>Third Item</li>
+            </ol>
+        </section>
+
+        <section id="section3" class="content-section">
+            <h2>Form Elements</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country">
+                        <option value="">Select a country</option>
+                        <option value="us">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ca">Canada</option>
+                        <option value="au">Australia</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4" placeholder="Hum aapko kyu hire kre?"></textarea>
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox" id="terms"> I agree to terms and conditions</label>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+
+        <section class="content-section">
+            <h2>Table Example</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pushpa</td>
+                        <td>20</td>
+                        <td>Tokyo</td>
+                    </tr>
+                    <tr>
+                        <td>Rahul Gangster</td>
+                        <td>34</td>
+                        <td>CHANDIGARH</td>
+                    </tr>
+                    <tr>
+                        <td>Sydney Sweeny</td>
+                        <td>80</td>
+                        <td>Sydney</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="content-section">
+            <h2>Box Model Demo</h2>
+            <div class="box">Padding, border, and margin <br> Systuuum</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Copyright All rights reserved</p>
+        <p>Powered by Alien Technology</p>
+    </footer>
+</body>
+</html>
